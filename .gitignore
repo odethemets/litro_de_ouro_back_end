@@ -1,0 +1,14 @@
+# O que faz: Diz ao Git (controlo de versões) quais ficheiros e pastas ele NUNCA deve enviar para o repositório remoto (ex: GitHub).
+# Como faz: Mapeia padrões de texto e nomes de pastas. Tudo o que estiver listado aqui será ignorado nos commits.
+
+# Ignorar o ambiente virtual Python (muito pesado e dependente de máquina)
+venv/
+.venv/
+env/
+
+# Ignorar as credenciais secretas do banco de dados
+.env
+
+# Ignorar pastas de cache e arquivos compilados pelo interpretador Python
+__pycache__/
+*.pyc
